@@ -16,5 +16,14 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
+
+        private void log_Click(object sender, EventArgs e)
+        {
+            if (usrnm.Text == "rose" && pass.Text == "123")
+            {
+                Form2 f2 = new Form2();
+                f2.Show();
+            }
+        }
     }
 }
